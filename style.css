@@ -1,0 +1,68 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: navy;
+    box-sizing: border-box;
+}
+
+    .page-content{
+        background-color: mintcream;
+        text-align: center;
+}
+    header, footer{
+        background-color: moccasin;
+        padding: 10px;
+        text-align:center;
+}
+.instructions{
+    font-size: 1.1rem;
+}
+.start-btn{
+    color: navy;
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 2rem;
+    border-radius: 10px;
+    position: relative;
+    top: -3px;
+    box-shadow: 0.25px 3px grey;
+}
+
+.start-btn:hover, .option-btn:hover, .submit-btn:hover{
+    background: navy;
+    color: moccasin;
+    text-shadow: none;
+
+}
+.option-btn{
+    color:navy;
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    position: relative;
+    top: -3px;
+    box-shadow: 0.25px 3px grey;
+}
+.submit-btn{
+    color: navy;
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 10px;
+    font-size: 0.85rem;
+    border-radius: 10px;
+    position: relative;
+    top: -3px;
+    box-shadow: 0.25px 3 px grey
+
+}
+
+li{
+    list-style-type: none;
+}
